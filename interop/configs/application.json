@@ -35,8 +35,8 @@
       {"action": "protect", "actor": "alice", "authenticatedData": "btw3", "plaintext": "hello world 3"},
       {"action": "protect", "actor": "alice", "authenticatedData": "btw4", "plaintext": "hello world 4"},
 
-      {"action": "unprotect", "actor": "bob", "ciphertext": 5 },
       {"action": "unprotect", "actor": "bob", "ciphertext": 4 },
+      {"action": "unprotect", "actor": "bob", "ciphertext": 3 },
       {"action": "unprotect", "actor": "bob", "ciphertext": 2 },
       {"action": "unprotect", "actor": "bob", "ciphertext": 1 }
     ]
